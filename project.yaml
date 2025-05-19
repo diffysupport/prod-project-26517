@@ -1,0 +1,53 @@
+basic:
+    name: 'https://resolutephysicaltherapy.com/'
+    environments:
+        production: 'https://resolutephysicaltherapy.com/'
+        staging: 'https://w6getk8rhd.wpdns.site/'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /pay-my-bill
+        - /about
+        - /services
+        - /our-services/orthopedic-rehabilitation
+        - /our-services/spine-rehabilitation
+        - /our-services/manual-therapy
+        - /our-services/vestibular-therapy
+        - /our-services/workers-compensation-therapy
+        - /our-services/motor-vehicle-accident-rehabilitation
+        - /our-services/sports-medicine
+        - /our-services/therapeutic-exercise
+        - /new-patients
+        - /frequently-asked-questions
+        - /contact
+        - /terms-of-service
+        - /privacy-policy
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
